@@ -1,4 +1,6 @@
 .top{
+    position: fixed;
+    top: 0;
     height: 2rem;
     background: #FFFFFF;
     box-shadow: 0px 3px 43px 0px
