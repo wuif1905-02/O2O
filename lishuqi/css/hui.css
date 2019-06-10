@@ -1,0 +1,169 @@
+@import "base.css";
+html {
+    font-size: 100px; }
+
+body {
+    font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+}
+header > a{
+    color: #4ebbfe;
+}
+.banner{
+
+    height: 1.85rem;
+    width: 6.5rem;
+    margin: 0.3rem 0.54rem;
+    display: flex;
+}
+.banner .left{
+    width: 1.7rem;
+    height: 100%;
+    flex: 0 1 auto;
+}
+.banner .right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.banner .right h1{
+    font-size: 0.3rem;
+    color: #000000;;
+    opacity: 0.7;
+    margin-top: 0.62rem;
+}
+.banner .right .level{
+    width: 100%;
+    height: 0.2rem;
+    display: flex;
+}
+.banner .right .level img{
+    width: 0.28rem;
+    height: 0.2rem;
+    margin-top: 0.22rem;
+    margin-right: 0.11rem;
+}
+.banner .right .level p{
+    font-size: 0.22rem;
+    color: #000000;
+    opacity: 0.4;
+    margin-top: 0.22rem;
+}
+.banner .right .sheng{
+    font-size: 0.22rem;
+    color: #3bacfe;
+    position: absolute;
+    top: 0.67rem;
+    right: 0.53rem;
+}
+.money{
+    width: 6.5rem;
+    margin: 0.3rem 0.54rem;
+    height: 1rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.58rem;
+}
+.money .yu{
+    font-size: 0.46rem;
+    color: #30a3fe;
+}
+.money .you{
+    font-size: 0.46rem;
+    color: #2dde59;
+}
+.money .jin{
+    font-size: 0.46rem;
+    color: #ffb83a;
+}
+.money p{
+    font-size: 0.24rem;
+    color: #8e9397;
+    text-align: center;
+}
+.list{
+    width: 6.5rem;
+    margin: 0.6rem 0.54rem;
+}
+.list li{
+    width: 100%;
+    height: 0.95rem;
+    font-size: 0.28rem;
+    color: black;
+    opacity: 0.7;
+    position: relative;
+    padding-left: 0.22rem;
+    box-sizing: border-box;
+}
+.list li::before{
+    content: "";
+    width: 0.1rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    border-radius: 0.03rem;
+    box-shadow: 0 0.02rem 0.05rem 0
+    rgba(68,181,255,0.43);
+    position: absolute;
+    top: 0.18rem;
+    left: 0;
+}
+footer{
+    width: 100%;
+    height: 0.98rem;
+    background: #f1f9ff;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 0 0.22rem;
+    -webkit-box-sizing: border-box;
+}
+
+footer a{
+    height: 100%;
+    width: 0.7rem;
+    font-size: 0.24rem;
+    color: #4ebbfe;
+    text-align: center;
+    padding-top: 0.1rem;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
+footer > a.hot{
+    opacity: 1;
+}
+footer a > img{
+    width: 0.5rem;
+    height: 0.5rem;
+}

@@ -1,0 +1,273 @@
+@import "base.css";
+html {
+    font-size: 100px; }
+
+body {
+    font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+    box-shadow: 0px 3px 43px 0px
+    rgba(41, 167, 255, 0.13);
+}
+header > a{
+    color: #4ebbfe;
+}
+.thing{
+    /*width: 100%;*/
+    height: 3.4rem;
+    padding: 0.3rem 0.22rem;
+}
+.thing .bottom{
+    width: 100%;
+    height: 2.58rem;
+    display: flex;
+}
+.thing .bottom .left{
+    width: 1.74rem;
+    height: 100%;
+    flex: 0 1 auto;
+}
+.thing .bottom .left img{
+    width: 100%;
+    height: 1.74rem;
+    margin-top: 0.48rem;
+}
+.thing .bottom .right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.thing .bottom .right h1{
+    font-size: 0.3rem;
+    color: #000000;
+    opacity: 0.6;
+    margin-left: 0.25rem;
+    margin-top: 0.4rem;
+}
+.thing .bottom .right b{
+    font-size: 0.26rem;
+    color: #36a8fe;
+    margin-left: 0.4rem;
+    margin-top: 0.2rem;
+    position: relative;
+}
+.thing .bottom .right b::before{
+    width: 0.05rem;
+    height: 0.05rem;
+    content: " ";
+    background: #44b5ff;
+    position: absolute;
+    top: 0.15rem;
+    left: -0.09rem;
+}
+.thing .bottom .right > p{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+    margin-left: 0.4rem;
+    margin-top: 0.15rem;
+    position: relative;
+}
+.thing .bottom .right > p::before{
+    width: 0.05rem;
+    height: 0.05rem;
+    content: " ";
+    background: #44b5ff;
+    position: absolute;
+    top: 0.15rem;
+    left: -0.09rem;
+}
+.thing .bottom .right .price{
+    display: flex;
+    justify-content: space-between;
+}
+.thing .bottom .right .price > .left{
+    font-size: 0.26rem;
+    color: #fbb548;
+    margin-left:0.4rem;
+    margin-top: 0.44rem;
+    position: relative;
+}
+.thing .bottom .right .price > .left::before{
+    width: 0.05rem;
+    height: 0.05rem;
+    content: " ";
+    background: #36d681;
+    position: absolute;
+    top: 0.15rem;
+    left: -0.09rem;
+}
+.thing .bottom .right .price > .right{
+    display: flex;
+    flex-direction: row;
+}
+.thing .bottom .right .price > .right > span{
+    width: 1.18rem;
+    height: 0.52rem;
+    background: #3bacfe;
+    border-radius: 0.26rem;
+    color: white;
+    margin-top: 0.3rem;
+    text-align: center;
+    line-height: 0.52rem;
+}
+.thing .bottom .right .price > .right > span.hot{
+    color: #3bacfe;
+    background: rgb(231,246,255);
+}
+.thing .bottom .right .price > .right > p{
+    font-size: 0.26rem;
+    color: #36a8fe;
+    margin:0.4rem 0.2rem;
+}
+.state{
+    height: 5rem;
+    padding: 0 0.22rem;
+    margin: 0 0.22rem;
+}
+.state li{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.state li p{
+    font-size: 0.26rem;
+    color: #474747;
+
+}
+.state li p::before{
+    content: "";
+    width: 0.1rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    position: absolute;
+    top: 0.15rem;
+    left: -0.2rem;
+}
+.state li p b{
+    color: #41b2fc;
+}
+.state li span{
+    font-size: 0.26rem;
+    color: #000000;
+    opacity: 0.6;
+    margin-right: 0.1rem;
+}
+.state li i{
+    font-size: 0.26rem;
+    color: #36a8fe;
+    position: absolute;
+    top: 0.04rem;
+    right: -0.25rem;
+}
+.state .money{
+    width: 100%;
+    height: 2.9rem;
+}
+.state .money .top{
+    width: 100%;
+    height: 1.02rem;
+    padding-top: 0.46rem;
+}
+.state .money .top p{
+    font-size: 0.26rem;
+    color: #474747;
+    position: relative;
+}
+.state .money .top p::before{
+    width: 0.1rem;
+    height: 0.05rem;
+    content: " ";
+    background: #fcbc41;
+    position: absolute;
+    top: 0.15rem;
+    left: -0.2rem;
+}
+.state .money .top p b{
+    font-size: 0.26rem;
+    color: #fcbc41;
+}
+.state .money .top span{
+    font-size: 0.32rem;
+    color: #fcbc41;
+    margin-top: 0.22rem;
+}
+.state .money .bottom{
+    /*width: 7.01rem;*/
+    height: 1.48rem;
+    background: #e7f6ff;
+    border-radius: 0.08rem;
+    color: #b9c9d2;
+    font-size: 0.24rem;
+
+    /*opacity: 0.5;*/
+}
+.state .ping{
+    width: 100%;
+    height: 3.03rem;
+    margin-top: 0.37rem;
+}
+.state .ping p{
+    font-size: 0.26rem;
+    color: #474747;
+    position: relative;
+}
+.state .ping p::before{
+    width: 0.1rem;
+    height: 0.05rem;
+    content: " ";
+    background: #31d094;
+    position: absolute;
+    top: 0.15rem;
+    left: -0.2rem;
+}
+.state .ping p b{
+    font-size: 0.26rem;
+    color: #31d094;
+}
+.state .ping img{
+    width: 1.01rem;
+    height: 1.01rem;
+    border-radius: 0.1rem;
+    margin-top: 0.34rem;
+}
+.state .submit{
+    width: 4.54rem;
+    height: 0.6rem;
+    background: #37e06f;
+    border-radius: 0.3rem;
+    margin-left: 1.09rem;
+    margin-bottom: 0.47rem;
+    text-align: center;
+    line-height: 0.6rem;
+    color: white;
+}
