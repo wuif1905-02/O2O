@@ -1,0 +1,129 @@
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.middle_top_img{
+    width: 1.08rem;
+    height: 0.81rem;
+}
+.middle_top_img img{
+    width: 1.08rem;
+    height: 0.81rem;
+}
+.need_pay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.need_pay_p{
+    width: 3.2rem;
+}
+.need_pay_p p:before{
+    left: 50%;
+}
+.need_pay_p2{
+    margin-top: 0.2rem;
+}
+.buttons{
+    width: 70%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons .a_button{
+
+}
+.a_button p{
+    line-height: 0.2rem;
+    height: 0.19rem;
+    font-size: 0.2rem;
+    letter-spacing: 0.01rem;
+    color: #FFFFFF;
+    padding: 0.2rem 0.56rem;
+    background-blend-mode: normal, normal;
+    border-radius: 0.3rem;
+}
+.green p{
+    background-color:#37e06f;
+    box-shadow: 0px 4px 20px 0px rgba(55, 223, 116, 0.75);
+
+}
+.blue p{
+    background-color: #3bacfe;
+    box-shadow: 0px 5px 12px 0px rgba(59, 172, 254, 0.43);
+}
+.content ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content li{
+    position: relative;
+    width: 3rem;
+    height: auto;
+    flex-direction: column;
+}
+.content .left_img{
+    padding: 0.15rem 1rem 0.44rem 0.72rem;
+
+}
+.left_img img{
+    width: 1.53rem;
+    height: 1.56rem;
+}
+.content_first{
+    margin-top: 0.62rem;
+    height: 0.7rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.content_first_left  .p1{
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.7);
+}
+.content_first_left .p2{
+   font-size: 0.22rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.5);
+}
+.firstline .num{
+    margin-right: 0;
+
+}
+.ps p{
+    margin-left: 0;
+}
+.content_right{
+    position: relative;
+    top: -0.5rem;
+}
+.content li::after{
+    content: '5.0';
+    width: 0.54rem;
+    font-size: 0.22rem;
+    padding: 0.06rem 0.12rem;
+    height: 0.16rem;
+    text-align: center;
+    line-height: 0.16rem;
+    color: #FFFFFF;
+    background-color: #31d69a;
+    box-shadow: 0 0.02rem 0.12rem 0 rgba(55, 223, 116, 0.75);
+    border-radius: 0.15rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.bottom_tab img{
+    opacity: 0.4;
+}
+.bottom_tab .hot img{
+    opacity: 1;
+}

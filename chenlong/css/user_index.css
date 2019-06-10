@@ -1,18 +1,21 @@
+body{
+    margin-top: 1.6rem;
+}
 .top{
     height: 1rem;
 }
 .bottom_tab img{
     opacity: 0.4;
 }
-.bottom_tab a:nth-child(5) img{
+.bottom_tab .hot img{
     opacity: 1;
 }
 .user_back_dots{
     position: absolute;
-    top: 12%;
+    top: 16%;
     z-index: -1;
     width: 94%;
-    height: 2.24rem;
+    height: 2.4rem;
     right: 0;
     left: 0;
     margin: auto;
@@ -57,6 +60,7 @@
 .firstline p{
     margin: 0.05rem 0;
     color: #3bacfe;
+    font-size: 0.20rem;
     padding: 0 0.23rem 0 0 ;
 }
 .firstline img{
@@ -67,6 +71,12 @@
 }
 
 .icon-zuanshihuiyuan{
+    font-size:0.3rem;
+    color: #FFE44F;
+    text-shadow: 0px 4px 9px 0px rgba(255, 228, 79, 0.75);
+}
+
+.icon-huangjinhuiyuan{
     font-size:0.3rem;
     color: #FFE44F;
     text-shadow: 0px 4px 9px 0px rgba(255, 228, 79, 0.75);
@@ -100,9 +110,8 @@
     font-size: 0.46rem;
     line-height: 0.4rem;
 
-
 }
-.money_num:nth-child(1) span{
+ .money_num:nth-child(1) span{
     background: linear-gradient(to right, #30a3fe ,#6fd5fe);
     -webkit-background-clip: text;
     color: transparent;
@@ -120,7 +129,7 @@
     text-shadow: 0px 4px 8px 0px
     rgba(255, 213, 53, 0.36);
 }
-.money_num p{
+.money_num  p{
     font-weight: bold;
     font-size: 0.24rem;
     height: 0.19rem;
