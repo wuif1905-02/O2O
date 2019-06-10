@@ -1,0 +1,229 @@
+@import "base.css";
+html {
+    font-size: 100px;
+}
+
+body {
+    font-size: 16px;
+    list-style: none;
+}
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+header{
+    height: 0.88rem;
+    padding: 0 0.24rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.01rem solid rgba(41, 167, 255, 0.13);
+}
+header a{
+    width: 0.25rem;
+    height: 0.88rem;
+    padding: 0.23rem 0;
+}
+header a img{
+    width: 0.25rem;
+    color: #36a8fe;
+}
+header span{
+    display: inline-block;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    margin: 0.27rem 0;
+    line-height: 0.4rem;
+}
+.shop{
+    padding-top: 1.18rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    overflow: hidden;
+}
+.shop-one{
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+.shop .shop-one-one{
+    margin-left: 0.74rem;
+    margin-right: 0.6rem;
+    width: 1.2rem;
+    height: 1.24rem;
+    float: left;
+}
+.shop-one-one img:nth-child(1){
+    width: 0.24rem;
+    height: 0.24rem;
+    position: absolute;
+    left: 0;
+    top:0.5rem;
+}
+.shop .shop-one-one img:nth-child(2){
+    width: 1.2rem;
+    height: 1.24rem;
+}
+.shop-one-two{
+    height: 1.24rem;
+    margin-right: 1.08rem;
+    padding-top: 0.45rem;
+    float: left;
+
+}
+.shop-one-two span:nth-child(1){
+    font-size: 0.3rem;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 0.3rem;
+    display: block;
+}
+.shop-one-two span:nth-child(2){
+    font-size: 0.26rem;
+    color:  #8e9387;
+    opacity: 0.8;
+    display: block;
+}
+.shop-one-three{
+    height: 0.34rem;
+    width: 1.26rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.45rem;
+    margin-bottom: 0.95rem;
+    float: right;
+}
+.shop-one-three img{
+    width: 0.34rem;
+    height: 0.34rem;
+}
+.shop-one-three span{
+    font-size: 0.26rem;
+    color: #36a8fe;
+    line-height: 0.34rem;
+}
+.nav-bottom{
+    margin-left: 0.24rem;
+    margin-top: 0.5rem;
+
+}
+.nav-bottom img{
+    width: 0.24rem;
+    height: 0.24rem;
+    background-color: #e7f6ff;
+
+}
+.nav-bottom span{
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+}
+.end{
+    width: 7.02rem;
+    height: 1.08rem;
+    position: absolute;
+    bottom: 0;
+    padding: 0 0.24rem;
+    background: #f1faff;
+
+}
+.end-left{
+    width: 2.4rem;
+    height:0.5rem;
+    padding-top: 0.1rem;
+
+}
+.end-left span:nth-child(1){
+    width: 0.6rem;
+    font-size: 0.24rem;
+    letter-spacing: 0.13rem;
+    color: #3bacfe;
+    opacity: 0.6;
+    margin-left: 0.15rem;
+}
+.end-left span:nth-child(1)::after{
+    content: ":";
+    width: 0.05rem;
+    height: 0.13rem;
+    font-size: 0.24rem;
+    color: #36a8fe;
+    opacity: 0.6;
+    position: absolute;
+    left: 1.08rem;
+    bottom: 0.75rem
+}
+.end-left span:nth-child(1)::before{
+    content:" ";
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 0.03rem;
+    background: #44b5ff;
+    position: absolute;
+    left: 0.24rem;
+    bottom: 0.68rem;
+
+}
+
+.end-left span:nth-child(2){
+    width: 0.82rem;
+    font-size: 0.36rem;
+    color: #36a8fe;
+    margin-top: 0.23rem;
+
+}
+.end-span{
+    font-size: 0.2rem;
+    letter-spacing: 1px;
+    color: #3bacfe;
+    opacity: 0.6;
+    margin-left: 0.12rem;
+    display: block;
+}
+.end-span::before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 0.03rem;
+    background: #36d681;
+    position: absolute;
+    left:0.24rem;
+    bottom: 0.33rem;
+}
+.end-right{
+    position: absolute;
+    right: 0.24rem;
+    bottom: 0;
+
+}
+.end-right a img{
+    width: 3.8rem;
+    height: 0.6rem;
+    position: absolute;
+    bottom: 0.22rem;
+    right: 0;
+}
+.end-right a span{
+    width: 0.50rem;
+    line-height: 0.24rem;
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0.4rem;
+    right: 1.66rem;
+}
