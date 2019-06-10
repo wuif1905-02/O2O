@@ -1,0 +1,126 @@
+.sl_select{
+	width: 7.5rem;
+	height: 0.65rem;
+	background: grey;
+	padding-top: 0.35rem
+}
+.sl_select>form{
+	border: none;
+	outline: none;
+	display: -webkit-flex; /* Safari */
+  	display: flex;
+  	justify-content: space-around;
+}
+.sl_select>form>select{
+	border: none;
+	outline: none;
+	font-size: 0.22rem;
+	letter-spacing: 0.01rem;
+	color: #3bacfe;
+
+}
+.sl_select>form>select>option{
+	border: none;
+	outline: none;
+	font-size: 0.22rem;
+	letter-spacing: 0.01rem;
+	color: #3bacfe;
+}
+
+
+
+.sl_content{
+	width: 100%;
+	padding-top: 0.37rem;
+}
+.sl_content>ul>li{
+	width: 6.8rem;
+	height: 1.74rem;
+	padding: 0.33rem  0.35rem;
+	position: relative;
+}
+.sl_content>ul>li>img{
+	width: 1.74rem;
+	height: 1.74rem;
+	overflow: hidden;
+	background: pink;
+	display: block;
+	float: left;
+}
+.sl_content>ul>li>div{
+	width: 3.5rem;
+	height: 1.74rem;
+	margin-left: 0.27rem;
+	float: left;
+}
+.sl_content>ul>li>div>h4{
+	font-size: 0.3rem;
+	opacity: 0.6;
+	line-height: 0.28rem;
+}
+.sl_content>ul>li>div>span{
+	color: rgba(0,0,0,0.3);
+	font-size: 0.22rem;
+	float: left;
+	line-height: 0.21rem;
+	margin-top: 0.19rem;
+	padding-right: 0.41rem;
+	padding-left: 0.12rem;
+	position: relative;
+}
+.sl_content>ul>li>div>span:before{
+	width: 0.05rem;
+	height: 0.05rem;
+	border-radius: 50%;
+	background-color: #44b5ff;;
+	position: absolute;
+	content: '';
+	top: 0.08rem;
+	left: 0;
+}
+.sl_content>ul>li>div>span>p{
+	font-size: 0.26rem;
+	color: #36a8fe;
+	float: right;
+}
+.sl_content>ul>li>div>b{
+	text-align: center;
+	width: 1.21rem;
+	height: 0.35rem;
+	display: block;
+	float: left;
+	line-height: 0.35rem;
+	margin-left: 0.09rem;
+	font-size: 0.2rem;
+	color: blue;
+	background-color: #3babff;
+	margin-top: 0.19rem;
+	border-radius: 0.18rem;
+}
+.sl_content>ul>li>div>i{
+	color: #000000;
+	font-size: 0.22rem;;
+	font-style: normal;
+	position: absolute;
+	bottom: 0.33rem;
+	left: 2.37rem;
+	line-height: 0.17rem;
+	padding-left: 0.14rem;
+}
+.sl_content>ul>li>div>div{
+	position: absolute;
+	color: #fbb548;
+	font-size: 0.26rem;
+	right:  0.35rem;
+	bottom: 0.37rem;
+}
+.sl_content>ul>li>div>i:before{
+	content: '';
+	width: 0.05rem;
+	height: 0.05rem;
+	border-radius: 50%;
+	background-color: #44b5ff;;
+	position: absolute;
+	top: 0.08rem;
+	left: 0;
+}

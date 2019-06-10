@@ -1,0 +1,176 @@
+/*搜索*/
+.search_2{
+	width: calc(100%-0.48rem);
+	height: 0.6rem;
+	padding: 0.2rem 0.24rem;
+	background: #FBFEFF;
+	box-shadow: 0px 3px 43px 0px 
+		rgba(41, 167, 255, 0.13);
+}
+.search_2>form{
+	width: 100%;
+	height: 0.6rem;
+	background-color: #F2FAFF;
+	border-radius: 0.3rem;
+	position: relative;
+}
+.city_sear{
+	width: 80%;
+	margin-left: 1rem;
+	height: 0.5rem;
+	line-height: 0.54rem;
+	font-size: 0.24rem;
+	letter-spacing: 0.01rem;
+	float: left;
+	margin-top: 0.05rem;
+	border: 0;
+	padding: 0;
+	background: rgba(0,0,0,0);
+	outline:none;
+	color: #333333;
+}
+.city_sear::-webkit-input-placeholder{
+    color:#C8D9E6;
+}
+.city_sear::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:#c8d9e6;
+}
+.city_sear:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:#c8d9e6;
+}
+.city_sear:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+    color:#c8d9e6;
+}
+/*搜索图标*/
+.search_2 img{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: block;
+	position: absolute;
+	top: 0.12rem;
+	left: 0.26rem;
+}
+.sear_icon{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: block;
+	background: blue;
+	border: none;
+	outline: none;
+	position: absolute;
+	top: 0.12rem;
+	left: 0.26rem;
+	z-index: 99;
+	opacity: 0;
+}
+/*当前定位*/
+.city_loca{
+	height: 1.3rem;
+	width: 100%;
+	display: flex;
+	align-items:center;
+	border-bottom: 0.02rem solid #EEF1F2;
+}
+.title_p>p{
+	color: #979899;
+	font-size: 0.26rem;
+	letter-spacing: 0.01rem;
+	font-weight: 900;
+	padding-left: 0.25rem;
+	position: relative;
+}
+.title_p>p:before{
+	content: '';
+	width: 0.1rem;
+	height: 0.05rem;
+	background: #44b5ff;
+	border-radius: 0.3rem;
+	position: absolute;
+	left: 0;
+	top: 0.16rem;
+}
+.city_loca>a{
+	padding: 0 0.24rem;
+	height: 0.48rem;
+	line-height: 0.48rem;
+	font-size: 0.24rem;
+	color: #FFF;
+	background: #3babff;
+	border-radius: 0.24rem;
+	margin-left: 0.2rem;
+}
+/*城市分类*/
+.city_fl{
+	margin-top: 0.3rem;
+}
+.city_fl ul{
+	display: flex;
+	flex-direction:column;
+}
+.city_fl i{
+	width: 0.43rem;
+	height: 0.43rem;
+	display: block;
+	font-size: 0.28rem;
+	letter-spacing: 0.01rem;
+	line-height: 0.4rem;
+	color: #FBFEFF;
+	width: 0.44rem;
+	height: 0.44rem;
+	border-radius: 50%;
+	background: #36a8fe;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.city_fl li{
+	display: flex;
+	margin-top: 0.26rem;
+	padding-bottom: 0.26rem;
+	padding-left: 0.2rem;
+	position: relative;
+}
+.city_fl li:not(:last-child){
+	border-bottom: 0.02rem solid #F6F9FA;
+}
+.city_fl li:before{
+	width: 0.08rem;
+	height: 0.08rem;
+	background-color: #37ce9a;
+	box-shadow: 0px 2px 5px 0px 
+		rgba(55, 206, 154, 0.43);
+	position: absolute;
+	left: 0;
+	top: 0.2rem;
+	content: '';
+	border-radius: 50%;
+}
+.city_fl>ul>li>a{
+	width: 50%;
+	font-size: 0.26rem;
+	letter-spacing: 0.01rem;
+	color: #979899;
+	line-height: 0.5rem;
+}
+/*城市分类导航栏*/
+.city_nav{
+	display: flex;
+	flex-direction:column;
+	position: fixed;
+	right: 0.2rem;
+	top: 3.4rem;
+	align-items:center;
+}
+.city_nav>li{
+	display: flex;
+}
+.city_nav>li>a{
+	font-size: 0.26rem;
+	letter-spacing: 0.02rem;
+	line-height: 0.42rem;
+	color: #C1C1C1;
+	text-align: center;
+}
+.city_nav>li>a:active{
+	color: #36A8FE;
+}

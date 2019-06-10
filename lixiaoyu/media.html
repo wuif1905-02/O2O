@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body{
+			padding: 0;
+			margin: 0;
+		}
+		.m_content{
+			height: auto;
+			background: pink;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+		.m_content>div{
+			width: 300px;
+			height: 300px;
+			float: left;
+			background: purple;
+			border: 3px solid blue;
+			box-sizing:border-box;
+		}
+		@media screen and (max-width: 768px){
+			.m_content{
+				width: 100%;
+			}
+			.m_content>div{
+			width: 100%;
+			height: 100px;
+			
+			box-sizing:border-box;
+		}
+		}
+		@media screen and (min-width: 768px){
+			.m_content{
+				width: 750px;
+			}
+			.m_content>div{
+			width: 50%;
+		}
+		@media screen and (min-width: 992px){
+			.m_content{
+				width: 970px;
+			}
+			.m_content>div{
+			width: 25%;
+		}
+		}
+		@media screen and (min-width: 1200px){
+			.m_content{
+				width: 1170px;
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<div class="m_content">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+</body>
+</html>

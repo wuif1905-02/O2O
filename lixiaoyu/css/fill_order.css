@@ -1,0 +1,273 @@
+body{
+	width: calc(100%-0.24rem);
+	padding: 0 0.24rem;
+	padding-bottom: 1.08rem;
+	padding-top: 0.88rem;
+}
+/*填写订单用户信息*/
+.order_user{
+	margin-top: 0.27rem;
+	padding-top: 0.48rem;
+	display: flex;
+	flex-direction:row;
+	width: 100%;
+	height: 1.15rem;
+	background: #F1FAFF;
+	position: relative;
+}
+.order_user>div{
+	font-size: 0.24rem;
+	letter-spacing: 0.01rem;
+	color: #3bacfe;
+	margin-left: 0.4rem;
+}
+.order_user>div>i{
+	color: #36a8fe;
+	font-size: 0.3rem;
+	font-weight: 900;
+}
+.order_user>div>p{
+	font-size: 0.22rem;
+	color: #787D7F;
+}
+.order_user>a{
+	width: 0.15rem;
+	height: 0.24rem;
+	position: absolute;
+	right: 0.29rem;
+	top: -0.3rem;
+}
+.order_user>a>img{
+	height: 0.24rem;
+}
+/*填写订单货物信息*/
+.order_goods{
+	width: 100%;
+	height: 1.74rem;
+	margin-top: 0.32rem;
+	display: flex;
+	margin-bottom: 0.8rem;
+}
+.order_goods>img{
+	width: 1.74rem;
+	height: 1.74rem;
+	display: block;
+	background: pink;
+}
+.order_goods>div{
+	display: flex;
+	flex-direction:column;
+	padding-top: 0.35rem;
+	padding-left: 0.24rem;
+}
+.order_goods>div>h4{
+	font-size: 0.3rem;
+	letter-spacing: 0.01rem;
+	color: #323333;
+}
+.order_goods>div>p{
+	font-size: 0.22rem;
+	letter-spacing: 0.01rem;
+	color: #AFB1B2;
+}
+.order_goods>div>i{
+	font-size: 0.24rem;
+	letter-spacing: 0.01rem;
+	color: #36a8fe;
+	display: flex;
+	font-weight: 900;
+	flex-direction:row;
+	align-items:center;
+}
+.order_goods>div>i>p{
+	font-size: 0.3rem;
+	color: #36a8fe;
+}
+.order_goods>div>i>p:before{
+	content: '¥'
+}
+/*填写订单留言*/
+.order_comment{
+	
+}
+.order_comment>h6{
+	font-size: 0.26rem;
+	letter-spacing: 0.02rem;
+	color: #41b2fc;
+	position: relative;
+	padding-left: 0.21rem;
+	font-weight: 900;
+}
+.order_comment>h6:before{
+	content: '';
+	width: 0.1rem;
+	height: 0.05rem;
+	background-color: #44b5ff;
+	border-radius: 0.03rem;
+	position: absolute;
+	left: 0;
+	top: 0.14rem;
+}
+.order_comment>form{
+	width: calc(100%-0.66rem);
+	margin-top: 0.25rem;
+	padding:0.33rem;
+	background: #F1FAFF;
+	border-radius: 0.08rem;
+}
+.order_comment>form>div{
+
+}
+.order_comment>form>textarea{
+	resize:none;
+	width: 100%;
+	height: 1rem;
+	outline: none;
+	border: none;
+	background: rgba(0,0,0,0);
+	font-size: 0.24rem;
+}
+.order_comment>form>div{
+	width: 1rem;
+	height: 1rem;
+	position: relative;
+	box-shadow: 0px 4px 20px 0px 
+		rgba(55, 223, 116, 0.75);
+	border-radius: 0.1rem;
+}
+.order_comment>form>div>input{
+	width: 1rem;
+	height: 1rem;
+	background: red;
+	outline: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	opacity: 0;
+}
+.order_comment>form>div>img{
+	width: 1rem;
+	height: 1rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+ /*填写订单预约时间*/
+ .order_time{
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-between;
+	width: 100%;
+	margin-top: 0.94rem;
+	position: relative;
+ }
+ .order_time>h6{
+ 	font-weight: 900;
+	font-size: 0.26rem;
+	letter-spacing: 0.02rem;
+	color: #4F5B64;
+	position: relative;
+	padding-left: 0.2rem;
+ }
+ .order_time>h6:after{
+	width: 0.1rem;
+	height: 0.05rem;
+	background: #44b5ff;
+	border-radius: 0.03rem;
+	position: absolute;
+	top: 0.14rem;
+	left: 0;
+	content: '';
+ }
+ .order_time>h6:before{
+	color: #41b2fc;
+	content: '预约';
+ }
+ .order_time>span{
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+	padding-right: 1rem
+ }
+ .order_time>span:before{
+ 	font-size: 0.26rem;
+ 	content: '推荐';
+ 	color: #B9C9D2;
+ }
+ .order_time>span>p{
+	font-size: 0.3rem;
+	color: #36a8fe;
+	padding-left: 0.17rem;
+	font-weight: 900;
+ }
+
+ .order_time>a{
+ 	width: 0.15rem;
+ 	height: 0.24rem;
+	position: absolute;
+	top: -0.7rem;
+ 	display: block;
+ 	right: 0.34rem;
+ }
+ .order_time>a>img{
+ 	height: 0.24rem;
+ }
+/*填写订单功能*/
+.order_fun{
+	width: 100%;
+	height: 1.08rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #F1FAFF;
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+}
+.order_fun>span{
+	font-size: 0.24rem;
+	letter-spacing: 0.13rem;
+	color: #85CBFE;
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+	padding-left: 0.15rem;
+	position: relative;
+	margin-left: 0.24rem;
+}
+.order_fun>span:before{
+	content: '';
+	width: 0.05rem;
+	height: 0.05rem;
+	background: #44b5ff;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	top: 0.22rem;
+}
+.order_fun>span>p{
+	font-size: 0.36rem;
+	color: #36a8fe;
+	letter-spacing: 0;
+}
+.order_fun>span>p:before{
+	content: '¥';
+	letter-spacing:0.13rem;
+}
+.order_fun>a{
+	display: block;
+	width: 3.5rem;
+	height: 0.6rem;
+	background: #3BACFE;
+	box-shadow: 0px 5px 12px 0px 
+		rgba(59, 172, 254, 0.43);
+	border-radius: 0.3rem;
+	color: #FFF;
+	text-align: center;
+	line-height: 0.6rem;
+	font-size: 0.24rem;
+	letter-spacing: 0.01rem;
+	margin-left: 1.7rem;
+}
