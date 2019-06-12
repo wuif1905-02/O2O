@@ -12,8 +12,47 @@
     <link rel="stylesheet" href="./css/shoppinglist.css">
     <link rel="stylesheet" href="./css/input_orders.css">
     <link rel="stylesheet" href="./css/input_order_index.css">
+    <link rel="stylesheet" href="./css/order_index.css">
     <link rel="stylesheet" href="./css/user_thumb.css">
     <link rel="stylesheet" href="//at.alicdn.com/t/font_1194642_bob0tp9ysph.css">
+    <style>
+        .text_line span{
+            color: #41b2fc;
+        }
+        .text_line .text_line_front{
+            color: #000;
+        }
+        .orders{
+            margin-bottom: 0.4rem;
+        }
+        .right_item{
+            float: right;
+            margin-right: 1rem;
+            margin-top: -0.62rem;
+        }
+        .right_item p{
+            font-weight: bold;
+            font-size: 0.26rem;
+            color: rgba(0,0,0,0.6);
+        }
+        .footer{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .footer_right{
+            float: unset;
+        }
+        .footer_right li{
+            background: #37e06f;
+            box-shadow: rgba(55,223,116,0.75);
+            padding: 0.18rem 2rem;
+        }
+        .message_part{
+            height: auto;
+            margin-bottom: 0.5rem;
+        }
+    </style>
 </head>
 <body>
 <div class = "top">
@@ -44,61 +83,86 @@
                     </div>
                 </li>
             </a>
+
         </ul>
+        <p style="float: right;margin-top: -0.6rem;margin-right: 0.2rem">x1</p>
+        <div class="sfk">
+            <p>实付款：60.00</p>
+        </div>
     </div>
-    <div class="sfk">
-        <p>实付款：60.00</p>
-    </div>
+
 </div>
 
 
 <div class = "comment">
     <div class="keywords_part">
         <div class="text_line">
-            <span class = "text_line_front">留言</span><span></span>
+            <span class = "text_line_front">退货</span><span>状态</span>
+        </div>
+
+    </div>
+    <div class = "right_item">
+        <p>请选择</p>
+    </div>
+    <div class ="right_jt">
+
+        <span class = "iconfont icon-youjiantou"></span>
+    </div>
+</div>
+<div class = "comment">
+    <div class="keywords_part">
+        <div class="text_line">
+            <span class = "text_line_front">退款</span><span>原因</span>
+        </div>
+
+    </div>
+    <div class = "right_item">
+        <p>买错了</p>
+    </div>
+    <div class ="right_jt">
+        <span class = "iconfont icon-youjiantou"></span>
+    </div>
+</div>
+<div class = "comment">
+    <div class="keywords_part">
+        <div class="text_line">
+            <span class = "text_line_front">退款</span><span>金额</span><p style="display: inline-block;margin-left: 0.5rem; font-size: 0.22rem;color: rgba(0,0,0,0.4);">(最多￥78.00,含发货邮费)</p><br>
+            <span style="color: #fcbc41;">￥60.00</span>
         </div>
     </div>
 </div>
+
+
 <div class="message_part">
     <div class="message_content">
-        <textarea class="message_content_in" type="textarea" placeholder="给服务人员捎句话"></textarea>
+        <textarea class="message_content_in" type="textarea" placeholder="退款说明"></textarea>
     </div>
-    <div class = "right_items">
+
+</div>
+
+<div class = "comment">
+    <div class="keywords_part">
+        <div class="text_line">
+            <span class = "text_line_front">上传</span><span style="color: #31d094;">凭证</span>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="message_part">
+    <div style="top: 0;" class = "right_items">
         <div class = "upload_image_icon">
             <img src="./images/part4/upload_image.png" alt="上传照片">
         </div>
         <input class = "upload_image" type="file">
     </div>
 </div>
-
-<div class = "comment">
-    <div class="keywords_part">
-        <div class="text_line">
-            <span class = "text_line_front">预约</span><span>时间</span>
-        </div>
-
-
-        <div class = "right_items">
-            <p>推荐</p><span>05:03</span><span>14:00-15:00</span>
-        </div>
-    </div>
-    <div class ="right_jt">
-        <span class = "iconfont icon-youjiantou"></span>
-    </div>
-</div>
-
-<div class="footer">
-    <div class = "footer_left">
-        <ul>
-            <li class = "hj">
-                <p>合计&nbsp;&nbsp;:</p><span class = "hj_price">￥&nbsp;30</span>
-            </li>
-        </ul>
-    </div>
+<div style="background: unset; bottom: 0.47rem;" class="footer">
     <div class = "footer_right">
         <ul>
-            <a href="pay_index.html">
-                <li>立即付款</li>
+            <a href="order_index.html">
+                <li>提交</li>
             </a>
         </ul>
     </div>
