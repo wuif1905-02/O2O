@@ -42,6 +42,7 @@ body{
     width: 70%;
     height: 0.41rem;
     overflow: hidden;
+    display: inline-block;
 }
 .stars{
     position: relative;
